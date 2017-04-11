@@ -1,0 +1,17 @@
+baseURL = "https://cthree.gitpages.io/fom5000/"
+languageCode = "en-us"
+title = "Feed-O-Matic 5000"
+publishDir = "../docs"
+theme = "hugo-theme-learn"
+
+
+[params]
+  # Prefix URL to edit current page. Useful to give opportunity to people to create merge request for your doc.
+  # See the config.toml file from this documentation site to have an example.
+  editURL = "https://github.com/cthree/fom5000/edit/master/docsrc/content/"
+  # Author of the site, will be used in meta information
+  author = "Erik Petersen"
+  # Description of the site, will be used in meta information
+  description = "Feed-O-Matic IoT Pet feeder update for PetMate"
+  # Shows a checkmark for visited pages on the menu. Default to false
+  showVisitedLinks = false
