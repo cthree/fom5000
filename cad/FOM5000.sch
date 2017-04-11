@@ -353,7 +353,7 @@
 <pin name="VSS" x="-15.24" y="-7.62" visible="pin" length="middle" direction="pas"/>
 <pin name="SDA" x="15.24" y="-2.54" visible="pin" length="middle" rot="R180"/>
 <pin name="SCL" x="15.24" y="2.54" visible="pin" length="middle" direction="in" function="clk" rot="R180"/>
-<pin name="MFP" x="15.24" y="-7.62" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="MFP" x="15.24" y="-7.62" visible="pin" length="middle" direction="out" rot="R180"/>
 <pin name="VCC" x="15.24" y="7.62" visible="pin" length="middle" direction="pwr" rot="R180"/>
 <wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
