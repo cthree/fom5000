@@ -1,4 +1,4 @@
-baseURL = "https://cthree.gitpages.io/fom5000/"
+baseURL = "https://cthree.github.io/fom5000/"
 languageCode = "en-us"
 title = "Feed-O-Matic 5000"
 publishDir = "../docs"
