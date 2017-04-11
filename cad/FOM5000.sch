@@ -8416,6 +8416,86 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="C3-RCL">
+<packages>
+<package name="SOT23-3">
+<smd name="A" x="-1.016" y="0.9144" dx="1.3208" dy="0.5588" layer="1"/>
+<smd name="NC" x="-1.016" y="-0.9144" dx="1.3208" dy="0.5588" layer="1"/>
+<smd name="C" x="1.016" y="0" dx="1.3208" dy="0.5588" layer="1"/>
+<wire x1="0.7112" y1="0.6096" x2="0.7112" y2="1.4986" width="0.1524" layer="21"/>
+<wire x1="-0.2286" y1="-1.4986" x2="0.7112" y2="-1.4986" width="0.1524" layer="21"/>
+<wire x1="0.7112" y1="-1.4986" x2="0.7112" y2="-0.6096" width="0.1524" layer="21"/>
+<wire x1="0.7112" y1="1.4986" x2="0.3048" y2="1.4986" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="1.4986" x2="-0.2286" y2="1.4986" width="0.1524" layer="21"/>
+<wire x1="-0.7112" y1="0.3048" x2="-0.7112" y2="-0.3048" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="1.4986" x2="-0.0254" y2="1.1938" width="0.1524" layer="21" curve="-95"/>
+<wire x1="-0.7112" y1="-1.4986" x2="0.7112" y2="-1.4986" width="0" layer="51"/>
+<wire x1="0.7112" y1="-1.4986" x2="0.7112" y2="-0.254" width="0" layer="51"/>
+<wire x1="0.7112" y1="-0.254" x2="0.7112" y2="0.254" width="0" layer="51"/>
+<wire x1="0.7112" y1="0.254" x2="0.7112" y2="1.4986" width="0" layer="51"/>
+<wire x1="0.7112" y1="1.4986" x2="0.3048" y2="1.4986" width="0" layer="51"/>
+<wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0" layer="51"/>
+<wire x1="-0.3048" y1="1.4986" x2="-0.7112" y2="1.4986" width="0" layer="51"/>
+<wire x1="-0.7112" y1="1.4986" x2="-0.7112" y2="1.1684" width="0" layer="51"/>
+<wire x1="-0.7112" y1="1.1684" x2="-0.7112" y2="0.6604" width="0" layer="51"/>
+<wire x1="-0.7112" y1="0.6604" x2="-0.7112" y2="-0.6604" width="0" layer="51"/>
+<wire x1="-0.7112" y1="1.1684" x2="-1.2446" y2="1.1684" width="0" layer="51"/>
+<wire x1="-1.2446" y1="1.1684" x2="-1.2446" y2="0.6604" width="0" layer="51"/>
+<wire x1="-1.2446" y1="0.6604" x2="-0.7112" y2="0.6604" width="0" layer="51"/>
+<wire x1="-0.7112" y1="-1.4986" x2="-0.7112" y2="-1.1684" width="0" layer="51"/>
+<wire x1="-0.7112" y1="-1.1684" x2="-0.7112" y2="-0.6604" width="0" layer="51"/>
+<wire x1="-0.7112" y1="-0.6604" x2="-1.2446" y2="-0.6604" width="0" layer="51"/>
+<wire x1="-1.2446" y1="-0.6604" x2="-1.2446" y2="-1.1684" width="0" layer="51"/>
+<wire x1="-1.2446" y1="-1.1684" x2="-0.7112" y2="-1.1684" width="0" layer="51"/>
+<wire x1="0.7112" y1="-0.254" x2="1.2446" y2="-0.254" width="0" layer="51"/>
+<wire x1="1.2446" y1="-0.254" x2="1.2446" y2="0.254" width="0" layer="51"/>
+<wire x1="1.2446" y1="0.254" x2="0.7112" y2="0.254" width="0" layer="51"/>
+<wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0" layer="51" curve="-180"/>
+<text x="-0.9144" y="1.905" size="1.27" layer="25" font="vector" ratio="15" rot="SR0">&gt;NAME</text>
+<text x="-0.9144" y="-3.175" size="1.27" layer="27" font="vector" ratio="15" rot="SR0">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="D-SCHOTTKY">
+<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="1.27" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="-2.54" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
+<text x="-1.27" y="2.54" size="1.778" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="0.508" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="1.27" x2="0.508" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-0.508" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="-1.27" x2="-0.508" y2="-1.016" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-2.54" y="1.27"/>
+<vertex x="0" y="0"/>
+<vertex x="-2.54" y="-1.27"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BAT54" prefix="D">
+<description>FAIRCHILD SINGLE SCHOTTKY DIODE</description>
+<gates>
+<gate name="G$1" symbol="D-SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="PART_NUM" value="5000"/>
@@ -8446,7 +8526,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <part name="C5" library="C3-Murata" deviceset="GRM18*" device="" technology="8R71E104KA01" value="0.1uF"/>
 <part name="C6" library="C3-Murata" deviceset="GRM18*" device="" technology="8R71E104KA01" value="0.1uF"/>
 <part name="B1" library="C3-Battery" deviceset="BU2032SM-HD-G" device="" value="CR2032"/>
-<part name="R1" library="C3-Panasonic" deviceset="ERJ-?*" device="3GEY" technology="J101" value="100R 5%"/>
+<part name="R1" library="C3-Panasonic" deviceset="ERJ-?*" device="3GEY" technology="J102" value="1K 5%"/>
 <part name="U$5" library="C3-General" deviceset="GND" device=""/>
 <part name="U$6" library="C3-General" deviceset="GND" device=""/>
 <part name="U$7" library="C3-General" deviceset="GND" device=""/>
@@ -8504,6 +8584,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <part name="SJ3" library="C3-General" deviceset="SOLDERJUMPER_2WAY" device="PASTE2&amp;3"/>
 <part name="U$27" library="C3-General" deviceset="VCC" device=""/>
 <part name="R11" library="C3-Panasonic" deviceset="ERJ-?*" device="3GEY" technology="J103" value="10K 5%"/>
+<part name="D2" library="C3-RCL" deviceset="BAT54" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8589,7 +8670,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <instance part="C4" gate="A" x="101.6" y="198.12" rot="R90"/>
 <instance part="C5" gate="A" x="114.3" y="228.6" rot="R90"/>
 <instance part="C6" gate="A" x="88.9" y="228.6" rot="R90"/>
-<instance part="B1" gate="A" x="68.58" y="73.66" rot="MR270"/>
+<instance part="B1" gate="A" x="68.58" y="68.58" rot="MR270"/>
 <instance part="R1" gate="A" x="78.74" y="86.36"/>
 <instance part="U$5" gate="1" x="76.2" y="134.62"/>
 <instance part="U$6" gate="1" x="88.9" y="119.38"/>
@@ -8649,6 +8730,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <instance part="SJ3" gate="A" x="236.22" y="215.9"/>
 <instance part="U$27" gate="G$1" x="147.32" y="68.58"/>
 <instance part="R11" gate="A" x="147.32" y="55.88" rot="R90"/>
+<instance part="D2" gate="G$1" x="68.58" y="81.28" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -8708,7 +8790,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="76.2" y1="60.96" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="58.42" x2="83.82" y2="58.42" width="0.1524" layer="91"/>
 <junction x="83.82" y="58.42"/>
-<wire x1="68.58" y1="68.58" x2="68.58" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="63.5" x2="68.58" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="58.42" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
 <junction x="76.2" y="58.42"/>
 <pinref part="U1" gate="A" pin="VSS"/>
@@ -8853,12 +8935,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <net name="VBAT" class="0">
 <segment>
 <pinref part="B1" gate="A" pin="VBAT"/>
-<pinref part="R1" gate="A" pin="1"/>
-<wire x1="68.58" y1="78.74" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="86.36" x2="78.74" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="121.92" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
-<junction x="68.58" y="86.36"/>
-<pinref part="R4" gate="A" pin="1"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="68.58" y1="73.66" x2="68.58" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBAT_IN" class="0">
@@ -9268,6 +9346,17 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <pinref part="R11" gate="A" pin="1"/>
 <wire x1="147.32" y1="55.88" x2="147.32" y2="53.34" width="0.1524" layer="91"/>
 <junction x="147.32" y="53.34"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R1" gate="A" pin="1"/>
+<wire x1="68.58" y1="83.82" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="86.36" x2="78.74" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="121.92" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
+<junction x="68.58" y="86.36"/>
+<pinref part="R4" gate="A" pin="1"/>
+<pinref part="D2" gate="G$1" pin="C"/>
 </segment>
 </net>
 </nets>

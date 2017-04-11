@@ -8347,6 +8347,46 @@
 </package>
 </packages>
 </library>
+<library name="C3-RCL">
+<packages>
+<package name="SOT23-3">
+<smd name="A" x="-1.016" y="0.9144" dx="1.3208" dy="0.5588" layer="1"/>
+<smd name="NC" x="-1.016" y="-0.9144" dx="1.3208" dy="0.5588" layer="1"/>
+<smd name="C" x="1.016" y="0" dx="1.3208" dy="0.5588" layer="1"/>
+<wire x1="0.7112" y1="0.6096" x2="0.7112" y2="1.4986" width="0.1524" layer="21"/>
+<wire x1="-0.2286" y1="-1.4986" x2="0.7112" y2="-1.4986" width="0.1524" layer="21"/>
+<wire x1="0.7112" y1="-1.4986" x2="0.7112" y2="-0.6096" width="0.1524" layer="21"/>
+<wire x1="0.7112" y1="1.4986" x2="0.3048" y2="1.4986" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="1.4986" x2="-0.2286" y2="1.4986" width="0.1524" layer="21"/>
+<wire x1="-0.7112" y1="0.3048" x2="-0.7112" y2="-0.3048" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="1.4986" x2="-0.0254" y2="1.1938" width="0.1524" layer="21" curve="-95"/>
+<wire x1="-0.7112" y1="-1.4986" x2="0.7112" y2="-1.4986" width="0" layer="51"/>
+<wire x1="0.7112" y1="-1.4986" x2="0.7112" y2="-0.254" width="0" layer="51"/>
+<wire x1="0.7112" y1="-0.254" x2="0.7112" y2="0.254" width="0" layer="51"/>
+<wire x1="0.7112" y1="0.254" x2="0.7112" y2="1.4986" width="0" layer="51"/>
+<wire x1="0.7112" y1="1.4986" x2="0.3048" y2="1.4986" width="0" layer="51"/>
+<wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0" layer="51"/>
+<wire x1="-0.3048" y1="1.4986" x2="-0.7112" y2="1.4986" width="0" layer="51"/>
+<wire x1="-0.7112" y1="1.4986" x2="-0.7112" y2="1.1684" width="0" layer="51"/>
+<wire x1="-0.7112" y1="1.1684" x2="-0.7112" y2="0.6604" width="0" layer="51"/>
+<wire x1="-0.7112" y1="0.6604" x2="-0.7112" y2="-0.6604" width="0" layer="51"/>
+<wire x1="-0.7112" y1="1.1684" x2="-1.2446" y2="1.1684" width="0" layer="51"/>
+<wire x1="-1.2446" y1="1.1684" x2="-1.2446" y2="0.6604" width="0" layer="51"/>
+<wire x1="-1.2446" y1="0.6604" x2="-0.7112" y2="0.6604" width="0" layer="51"/>
+<wire x1="-0.7112" y1="-1.4986" x2="-0.7112" y2="-1.1684" width="0" layer="51"/>
+<wire x1="-0.7112" y1="-1.1684" x2="-0.7112" y2="-0.6604" width="0" layer="51"/>
+<wire x1="-0.7112" y1="-0.6604" x2="-1.2446" y2="-0.6604" width="0" layer="51"/>
+<wire x1="-1.2446" y1="-0.6604" x2="-1.2446" y2="-1.1684" width="0" layer="51"/>
+<wire x1="-1.2446" y1="-1.1684" x2="-0.7112" y2="-1.1684" width="0" layer="51"/>
+<wire x1="0.7112" y1="-0.254" x2="1.2446" y2="-0.254" width="0" layer="51"/>
+<wire x1="1.2446" y1="-0.254" x2="1.2446" y2="0.254" width="0" layer="51"/>
+<wire x1="1.2446" y1="0.254" x2="0.7112" y2="0.254" width="0" layer="51"/>
+<wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0" layer="51" curve="-180"/>
+<text x="-0.9144" y="1.905" size="1.27" layer="25" font="vector" ratio="15" rot="SR0">&gt;NAME</text>
+<text x="-0.9144" y="-3.175" size="1.27" layer="27" font="vector" ratio="15" rot="SR0">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 <attribute name="COPYRIGHT" value="Copyright 2017"/>
@@ -8634,9 +8674,9 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VOLTAGE" value="25V" x="12.192" y="15.494" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="B1" library="C3-Battery" package="BU2032SM-HD" value="CR2032" x="19.812" y="39.37" locked="yes" rot="MR180"/>
-<element name="R1" library="C3-Panasonic" package="R0603" value="100R 5%" x="20.82931875" y="48.33945" smashed="yes">
+<element name="R1" library="C3-Panasonic" package="R0603" value="1K 5%" x="20.82931875" y="48.33945" smashed="yes">
 <attribute name="NAME" x="20.998153125" y="47.244028125" size="1.27" layer="25" font="vector" ratio="10" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" value="100R 5%" x="20.82931875" y="48.33945" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="1K 5%" x="20.82931875" y="48.33945" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="20.82931875" y="47.06945" size="1.27" layer="27" font="vector" align="top-center"/>
 </element>
 <element name="R2" library="C3-Panasonic" package="R0603" value="0R" x="29.21" y="47.498" smashed="yes">
@@ -8763,6 +8803,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="26.162" y="56.896" size="1.27" layer="25" font="vector" ratio="10" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="27.94" y="53.594" size="1.27" layer="27" font="vector" rot="R90" align="top-center"/>
 </element>
+<element name="D2" library="C3-RCL" package="SOT23-3" value="BAT54" x="9.398" y="45.72" rot="R90"/>
 </elements>
 <signals>
 <signal name="VIN">
@@ -8773,17 +8814,14 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="VBAT">
 <contactref element="B1" pad="P"/>
-<contactref element="R1" pad="1"/>
-<contactref element="R4" pad="1"/>
-<wire x1="20.10431875" y1="48.33945" x2="18.6015" y2="48.33945" width="0.254" layer="1"/>
-<wire x1="18.462553125" y1="48.478396875" x2="18.6015" y2="48.33945" width="0.254" layer="1"/>
 <wire x1="6.096" y1="40.304" x2="5.162" y2="39.37" width="0.254" layer="16"/>
 <wire x1="5.162" y1="39.37" x2="6.35" y2="40.558" width="0.254" layer="16"/>
 <wire x1="6.35" y1="40.558" x2="6.35" y2="42.418" width="0.254" layer="16"/>
 <wire x1="6.35" y1="42.418" x2="7.112" y2="43.434" width="0.254" layer="16"/>
 <via x="7.112" y="43.434" extent="1-16" drill="0.254" diameter="0.508"/>
-<wire x1="7.112" y1="43.434" x2="12.156396875" y2="48.478396875" width="0.254" layer="1"/>
-<wire x1="12.156396875" y1="48.478396875" x2="18.462553125" y2="48.478396875" width="0.254" layer="1"/>
+<contactref element="D2" pad="A"/>
+<wire x1="8.4836" y1="44.704" x2="8.382" y2="44.704" width="0.254" layer="1"/>
+<wire x1="8.382" y1="44.704" x2="7.112" y2="43.434" width="0.254" layer="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="U3" pad="6"/>
@@ -9402,7 +9440,42 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="69.95" y="3.875" curve="-180"/>
 </polygon>
 </signal>
+<signal name="N$2">
+<contactref element="R1" pad="1"/>
+<contactref element="R4" pad="1"/>
+<contactref element="D2" pad="C"/>
+<wire x1="20.10431875" y1="48.33945" x2="18.6015" y2="48.33945" width="0.254" layer="1"/>
+<wire x1="18.462553125" y1="48.478396875" x2="18.6015" y2="48.33945" width="0.254" layer="1"/>
+<wire x1="9.398" y1="46.736" x2="9.398" y2="47.498" width="0.254" layer="1"/>
+<wire x1="10.378396875" y1="48.478396875" x2="18.462553125" y2="48.478396875" width="0.254" layer="1"/>
+<wire x1="9.398" y1="47.498" x2="10.378396875" y2="48.478396875" width="0.254" layer="1"/>
+</signal>
 </signals>
+<errors>
+<approved hash="1,20,1cbf12c115251b5b"/>
+<approved hash="1,20,1e608c1e8feb1d95"/>
+<approved hash="1,20,26554c634d532765"/>
+<approved hash="1,20,45f38f8d8f61451f"/>
+<approved hash="1,20,1efc8c828d031f7d"/>
+<approved hash="1,20,1cec0d120c211ddf"/>
+<approved hash="1,20,5a1d0063015f5b21"/>
+<approved hash="1,20,5d01077f075b5d25"/>
+<approved hash="1,20,5a15006b019f5be1"/>
+<approved hash="1,20,1c1e126011331f4d"/>
+<approved hash="1,20,5e6c1c121d255f5b"/>
+<approved hash="1,20,9d8c43f243219d5f"/>
+<approved hash="1,20,1e4a8c348de11f9f"/>
+<approved hash="1,20,1e70b40eb6151c6b"/>
+<approved hash="1,20,7cfc82828d03737d"/>
+<approved hash="1,20,5cc842b6416b5f15"/>
+<approved hash="1,20,51bfe3c1e325515b"/>
+<approved hash="1,20,9ac800b60374990a"/>
+<approved hash="1,20,9e7e0c000d669f18"/>
+<approved hash="1,20,52f3e08de0e1529f"/>
+<approved hash="2,20,103298d2a5622d82"/>
+<approved hash="2,20,103298d2a5622d82"/>
+<approved hash="2,20,103298d2a5622d82"/>
+</errors>
 </board>
 </drawing>
 </eagle>
