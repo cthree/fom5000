@@ -2,20 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Feed-O-Matic 5000</title>
-<<<<<<< HEAD
     <link>https://cthree.github.io/fom5000/categories/</link>
-=======
-    <link>https://cthree.gitpages.io/fom5000/categories/</link>
->>>>>>> b35a3672fc9fbf7c963cd68c586e30410b73a1f3
     <description>Recent content in Categories on Feed-O-Matic 5000</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-<<<<<<< HEAD
 	<atom:link href="https://cthree.github.io/fom5000/categories/index.xml" rel="self" type="application/rss+xml" />
-=======
-	<atom:link href="https://cthree.gitpages.io/fom5000/categories/index.xml" rel="self" type="application/rss+xml" />
->>>>>>> b35a3672fc9fbf7c963cd68c586e30410b73a1f3
     
     
   </channel>
