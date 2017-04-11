@@ -9254,7 +9254,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="231.14" y1="215.9" x2="233.68" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RTCMFC" class="0">
+<net name="RTCMFP" class="0">
 <segment>
 <wire x1="266.7" y1="111.76" x2="266.7" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="53.34" x2="147.32" y2="53.34" width="0.1524" layer="91"/>

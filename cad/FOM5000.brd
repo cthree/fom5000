@@ -9376,7 +9376,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="36.195" y1="50.419" x2="36.576" y2="50.038" width="0.254" layer="1"/>
 <wire x1="36.576" y1="50.038" x2="37.846" y2="50.038" width="0.254" layer="1"/>
 </signal>
-<signal name="RTCMFC">
+<signal name="RTCMFP">
 <contactref element="U1" pad="7"/>
 <wire x1="30.48" y1="53.594" x2="30.734" y2="53.848" width="0.254" layer="1"/>
 <wire x1="30.734" y1="53.848" x2="30.734" y2="55.372" width="0.254" layer="1"/>
