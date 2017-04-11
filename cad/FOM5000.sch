@@ -8502,6 +8502,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <part name="SJ1" library="C3-General" deviceset="SOLDERJUMPER_2WAY" device="PASTE2&amp;3"/>
 <part name="SJ2" library="C3-General" deviceset="SOLDERJUMPER_2WAY" device="PASTE2&amp;3"/>
 <part name="SJ3" library="C3-General" deviceset="SOLDERJUMPER_2WAY" device="PASTE2&amp;3"/>
+<part name="U$27" library="C3-General" deviceset="VCC" device=""/>
+<part name="R11" library="C3-Panasonic" deviceset="ERJ-?*" device="3GEY" technology="J103" value="10K 5%"/>
 </parts>
 <sheets>
 <sheet>
@@ -8645,6 +8647,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <instance part="SJ1" gate="A" x="238.76" y="228.6"/>
 <instance part="SJ2" gate="A" x="251.46" y="220.98"/>
 <instance part="SJ3" gate="A" x="236.22" y="215.9"/>
+<instance part="U$27" gate="G$1" x="147.32" y="68.58"/>
+<instance part="R11" gate="A" x="147.32" y="55.88" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -8964,6 +8968,11 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="317.5" y1="132.08" x2="317.5" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="129.54" x2="320.04" y2="129.54" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$27" gate="G$1" pin="VCC"/>
+<pinref part="R11" gate="A" pin="2"/>
+<wire x1="147.32" y1="68.58" x2="147.32" y2="66.04" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VIN" class="0">
 <segment>
@@ -9248,13 +9257,17 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <net name="RTCMFC" class="0">
 <segment>
 <wire x1="266.7" y1="111.76" x2="266.7" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="53.34" x2="167.64" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="53.34" x2="167.64" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="53.34" x2="147.32" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="53.34" x2="137.16" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="53.34" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="MFP"/>
-<wire x1="167.64" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
 <label x="259.588" y="112.268" size="1.27" layer="95" font="vector"/>
 <pinref part="PI" gate="A" pin="GPIO25"/>
 <wire x1="266.7" y1="111.76" x2="259.08" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="R11" gate="A" pin="1"/>
+<wire x1="147.32" y1="55.88" x2="147.32" y2="53.34" width="0.1524" layer="91"/>
+<junction x="147.32" y="53.34"/>
 </segment>
 </net>
 </nets>
