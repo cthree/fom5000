@@ -8496,6 +8496,458 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="C3-Nichicon">
+<packages>
+<package name="4MM_SMD">
+<description>4mm Dia. SMD Aluminum Electrolytic Capacitor&lt;p&gt;
+&lt;a href="http://nichicon-us.com/english/products/pdfs/e-ch_ref.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="2.125" y1="-2.125" x2="2.125" y2="2.125" width="0.127" layer="51"/>
+<wire x1="2.125" y1="2.125" x2="-1.25" y2="2.125" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="2.125" x2="-2.125" y2="1.25" width="0.127" layer="51"/>
+<wire x1="-2.125" y1="1.25" x2="-2.125" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="-2.125" y1="-1.25" x2="-1.25" y2="-2.125" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="-2.125" x2="2.125" y2="-2.125" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="1.25" y="-1.5" curve="90"/>
+<vertex x="1.25" y="1.5"/>
+</polygon>
+<circle x="0" y="0" radius="2" width="0.127" layer="51"/>
+<smd name="P" x="-1.8" y="0" dx="1.6" dy="2.6" layer="1" rot="R90"/>
+<smd name="N" x="1.8" y="0" dx="1.6" dy="2.6" layer="1" rot="R90"/>
+<wire x1="-2.125" y1="1.25" x2="-1.25" y2="2.125" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="2.125" x2="2.125" y2="2.125" width="0.127" layer="21"/>
+<wire x1="2.125" y1="2.125" x2="2.125" y2="1.125" width="0.127" layer="21"/>
+<wire x1="-2.125" y1="-1.25" x2="-1.25" y2="-2.125" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="-2.125" x2="2.125" y2="-2.125" width="0.127" layer="21"/>
+<wire x1="2.125" y1="-2.125" x2="2.125" y2="-1.125" width="0.127" layer="21"/>
+<text x="-3.375" y="2.475" size="1.27" layer="21" ratio="15" rot="R270">+</text>
+<text x="-0.025" y="3" size="1.778" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0.05" y="-3.05" size="1.27" layer="27" font="vector" align="top-center">&gt;VALUE</text>
+<wire x1="-2.125" y1="-1.25" x2="-2.125" y2="-1.125" width="0.127" layer="21"/>
+<wire x1="-2.125" y1="1.25" x2="-2.125" y2="1.125" width="0.127" layer="21"/>
+</package>
+<package name="3MM_SMD">
+<description>3mm Dia. SMD Aluminum Electrolytic Capacitor&lt;p&gt;
+&lt;a href="http://nichicon-us.com/english/products/pdfs/e-ch_ref.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="1.625" y1="-1.625" x2="1.625" y2="1.625" width="0.127" layer="51"/>
+<wire x1="1.625" y1="1.625" x2="-1" y2="1.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="1.625" x2="-1.625" y2="1" width="0.127" layer="51"/>
+<wire x1="-1.625" y1="1" x2="-1.625" y2="-1" width="0.127" layer="51"/>
+<wire x1="-1.625" y1="-1" x2="-1" y2="-1.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-1.625" x2="1.625" y2="-1.625" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="1" y="-1.125" curve="90"/>
+<vertex x="1" y="1.125"/>
+</polygon>
+<circle x="0" y="0" radius="1.5" width="0.127" layer="51"/>
+<smd name="P" x="-1.5" y="0" dx="1.6" dy="2.2" layer="1" rot="R90"/>
+<smd name="N" x="1.5" y="0" dx="1.6" dy="2.2" layer="1" rot="R90"/>
+<wire x1="-1.225" y1="1.4" x2="-1" y2="1.625" width="0.127" layer="21"/>
+<wire x1="-1" y1="1.625" x2="1.625" y2="1.625" width="0.127" layer="21"/>
+<wire x1="1.625" y1="1.625" x2="1.625" y2="1.3" width="0.127" layer="21"/>
+<wire x1="-1.225" y1="-1.4" x2="-1" y2="-1.625" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1.625" x2="1.625" y2="-1.625" width="0.127" layer="21"/>
+<wire x1="1.625" y1="-1.625" x2="1.625" y2="-1.3" width="0.127" layer="21"/>
+<text x="-2.775" y="2.3" size="1.27" layer="21" ratio="15" rot="R270">+</text>
+<text x="-0.05" y="2.5" size="1.778" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0.05" y="-2.45" size="1.27" layer="27" font="vector" align="top-center">&gt;VALUE</text>
+</package>
+<package name="5MM_SMD">
+<description>5mm Dia. SMD Aluminum Electrolytic Capacitor&lt;p&gt;
+&lt;a href="http://nichicon-us.com/english/products/pdfs/e-ch_ref.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="2.625" y1="-2.625" x2="2.625" y2="2.625" width="0.127" layer="51"/>
+<wire x1="2.625" y1="2.625" x2="-1.75" y2="2.625" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="2.625" x2="-2.625" y2="1.75" width="0.127" layer="51"/>
+<wire x1="-2.625" y1="1.75" x2="-2.625" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="-2.625" y1="-1.75" x2="-1.75" y2="-2.625" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-2.625" x2="2.625" y2="-2.625" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="1.625" y="-1.875" curve="90"/>
+<vertex x="1.625" y="1.875"/>
+</polygon>
+<circle x="0" y="0" radius="2.5" width="0.127" layer="51"/>
+<smd name="P" x="-2.2" y="0" dx="1.6" dy="3" layer="1" rot="R90"/>
+<smd name="N" x="2.2" y="0" dx="1.6" dy="3" layer="1" rot="R90"/>
+<wire x1="-2.625" y1="1.75" x2="-1.75" y2="2.625" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="2.625" x2="2.625" y2="2.625" width="0.127" layer="21"/>
+<wire x1="2.625" y1="2.625" x2="2.625" y2="1.125" width="0.127" layer="21"/>
+<wire x1="-2.625" y1="-1.75" x2="-1.75" y2="-2.625" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-2.625" x2="2.625" y2="-2.625" width="0.127" layer="21"/>
+<wire x1="2.625" y1="-2.625" x2="2.625" y2="-1.125" width="0.127" layer="21"/>
+<text x="-3.875" y="2.975" size="1.27" layer="21" ratio="15" rot="R270">+</text>
+<text x="-0.05" y="3.6" size="1.778" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0.05" y="-3.55" size="1.27" layer="27" font="vector" align="top-center">&gt;VALUE</text>
+<wire x1="-2.625" y1="-1.75" x2="-2.625" y2="-1.125" width="0.127" layer="21"/>
+<wire x1="-2.625" y1="1.75" x2="-2.625" y2="1.125" width="0.127" layer="21"/>
+</package>
+<package name="6_3MM_SMD">
+<description>6.3mm Dia. SMD Aluminum Electrolytic Capacitor&lt;p&gt;
+&lt;a href="http://nichicon-us.com/english/products/pdfs/e-ch_ref.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="3.25" y1="-3.25" x2="3.25" y2="3.25" width="0.127" layer="51"/>
+<wire x1="3.25" y1="3.25" x2="-2.25" y2="3.25" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="3.25" x2="-3.25" y2="2.25" width="0.127" layer="51"/>
+<wire x1="-3.25" y1="2.25" x2="-3.25" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="-3.25" y1="-2.25" x2="-2.25" y2="-3.25" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="-3.25" x2="3.25" y2="-3.25" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="2.125" y="-2.25" curve="90"/>
+<vertex x="2.125" y="2.25"/>
+</polygon>
+<circle x="0" y="0" radius="3.15" width="0.127" layer="51"/>
+<smd name="P" x="-2.55" y="0" dx="1.6" dy="3.5" layer="1" rot="R90"/>
+<smd name="N" x="2.55" y="0" dx="1.6" dy="3.5" layer="1" rot="R90"/>
+<wire x1="-3.25" y1="2.25" x2="-2.25" y2="3.25" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="3.25" x2="3.25" y2="3.25" width="0.127" layer="21"/>
+<wire x1="3.25" y1="3.25" x2="3.25" y2="1.425" width="0.127" layer="21"/>
+<wire x1="-3.25" y1="-2.25" x2="-2.25" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="-3.25" x2="3.25" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="3.25" y1="-3.25" x2="3.25" y2="-1.425" width="0.127" layer="21"/>
+<text x="-4.55" y="2.575" size="1.27" layer="21" ratio="15" rot="R270">+</text>
+<text x="-0.05" y="3.95" size="1.778" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.975" size="1.27" layer="27" font="vector" align="top-center">&gt;VALUE</text>
+<wire x1="-3.25" y1="-2.25" x2="-3.25" y2="-1.425" width="0.127" layer="21"/>
+<wire x1="-3.25" y1="2.25" x2="-3.25" y2="1.425" width="0.127" layer="21"/>
+</package>
+<package name="8MM_SMD">
+<description>8mmx5.5mm and 8mmx6.2mm SMD Aluminum Electrolytic Capacitor&lt;p&gt;
+&lt;a href="http://nichicon-us.com/english/products/pdfs/e-ch_ref.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="4.125" y1="-4.125" x2="4.125" y2="4.125" width="0.127" layer="51"/>
+<wire x1="4.125" y1="4.125" x2="-2.875" y2="4.125" width="0.127" layer="51"/>
+<wire x1="-2.875" y1="4.125" x2="-4.125" y2="2.875" width="0.127" layer="51"/>
+<wire x1="-4.125" y1="2.875" x2="-4.125" y2="-2.875" width="0.127" layer="51"/>
+<wire x1="-4.125" y1="-2.875" x2="-2.875" y2="-4.125" width="0.127" layer="51"/>
+<wire x1="-2.875" y1="-4.125" x2="4.125" y2="-4.125" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="2.875" y="-2.75" curve="90"/>
+<vertex x="2.875" y="2.75"/>
+</polygon>
+<circle x="0" y="0" radius="4" width="0.127" layer="51"/>
+<smd name="P" x="-3.05" y="0" dx="2.5" dy="4" layer="1" rot="R90"/>
+<smd name="N" x="3.05" y="0" dx="2.5" dy="4" layer="1" rot="R90"/>
+<wire x1="-4.125" y1="2.875" x2="-2.875" y2="4.125" width="0.127" layer="21"/>
+<wire x1="-2.875" y1="4.125" x2="4.125" y2="4.125" width="0.127" layer="21"/>
+<wire x1="4.125" y1="4.125" x2="4.125" y2="1.625" width="0.127" layer="21"/>
+<wire x1="-4.125" y1="-2.875" x2="-2.875" y2="-4.125" width="0.127" layer="21"/>
+<wire x1="-2.875" y1="-4.125" x2="4.125" y2="-4.125" width="0.127" layer="21"/>
+<wire x1="4.125" y1="-4.125" x2="4.125" y2="-1.625" width="0.127" layer="21"/>
+<text x="-5.375" y="2.975" size="1.27" layer="21" ratio="15" rot="R270">+</text>
+<text x="-0.025" y="5.025" size="1.778" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0.075" y="-5.025" size="1.27" layer="27" font="vector" align="top-center">&gt;VALUE</text>
+<wire x1="-4.125" y1="-2.875" x2="-4.125" y2="-1.625" width="0.127" layer="21"/>
+<wire x1="-4.125" y1="2.875" x2="-4.125" y2="1.625" width="0.127" layer="21"/>
+</package>
+<package name="10MM_SMD">
+<description>10mm Dia. SMD Aluminum Electrolytic Capacitor&lt;p&gt;
+&lt;a href="http://nichicon-us.com/english/products/pdfs/e-ch_ref.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="5.125" y1="-5.125" x2="5.125" y2="5.125" width="0.127" layer="51"/>
+<wire x1="5.125" y1="5.125" x2="-3.5" y2="5.125" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="5.125" x2="-5.125" y2="3.5" width="0.127" layer="51"/>
+<wire x1="-5.125" y1="3.5" x2="-5.125" y2="-3.5" width="0.127" layer="51"/>
+<wire x1="-5.125" y1="-3.5" x2="-3.5" y2="-5.125" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="-5.125" x2="5.125" y2="-5.125" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="3.625" y="-3.375" curve="90"/>
+<vertex x="3.625" y="3.375"/>
+</polygon>
+<circle x="0" y="0" radius="5" width="0.127" layer="51"/>
+<smd name="P" x="-4" y="0" dx="2.5" dy="4" layer="1" rot="R90"/>
+<smd name="N" x="4" y="0" dx="2.5" dy="4" layer="1" rot="R90"/>
+<wire x1="-5.125" y1="3.5" x2="-3.5" y2="5.125" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="5.125" x2="5.125" y2="5.125" width="0.127" layer="21"/>
+<wire x1="5.125" y1="5.125" x2="5.125" y2="1.625" width="0.127" layer="21"/>
+<wire x1="-5.125" y1="-3.5" x2="-3.5" y2="-5.125" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-5.125" x2="5.125" y2="-5.125" width="0.127" layer="21"/>
+<wire x1="5.125" y1="-5.125" x2="5.125" y2="-1.625" width="0.127" layer="21"/>
+<text x="-6.35" y="3.175" size="1.27" layer="21" ratio="15" rot="R270">+</text>
+<text x="0.1" y="6.025" size="1.778" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0.075" y="-6.075" size="1.27" layer="27" font="vector" align="top-center">&gt;VALUE</text>
+<wire x1="-5.125" y1="-3.5" x2="-5.125" y2="-1.625" width="0.127" layer="21"/>
+<wire x1="-5.125" y1="3.5" x2="-5.125" y2="1.625" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="C-POLARIZED">
+<description>&lt;b&gt;Capacitor - Polarized&lt;/b&gt;</description>
+<pin name="POS" x="5.08" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<pin name="NEG" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<text x="1.27" y="-2.54" size="1.27" layer="96" rot="SR0" align="top-center">&gt;VALUE</text>
+<text x="1.27" y="2.54" size="1.778" layer="95" font="vector" ratio="10" rot="SR0" align="bottom-center">&gt;NAME</text>
+<wire x1="1.778" y1="1.905" x2="1.778" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="0" x2="1.778" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="1.778" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="1.905" x2="0.762" y2="-1.905" width="0.1524" layer="94" curve="-41.451118"/>
+<wire x1="-2.54" y1="0" x2="1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-1.27" x2="2.794" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="2.794" y1="-1.27" x2="2.794" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="-1.27" x2="2.794" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="2.794" y1="-1.27" x2="2.794" y2="-0.762" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="UWT*M?" prefix="C">
+<description>&lt;b&gt;Wide Temperature Range Aluminum Eletrolytic Capacitor SMD&lt;/b&gt;
+&lt;p&gt;&lt;img src="https://media.digikey.com/photos/Nichicon%20Photos/WT,WX%20SERIES%205.0,5.4.jpg"&gt;
+&lt;p&gt;&lt;a href="http://nichicon-us.com/english/products/pdfs/e-uwt.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;p&gt;Highlights:
+&lt;ul&gt;
+&lt;li&gt;Wide Temperature Range: -55°C-105°C
+&lt;li&gt;Small, Low profile
+&lt;li&gt;4-50VDC
+&lt;li&gt;1-1500µF ± 20%
+&lt;/ul&gt;
+&lt;p&gt;Nichicon doesn't use specific codes for sizes, some such as CL1GB can be 4, 5 or 6.3mm. The diameter is appended to the package like &lt;b&gt;/size&lt;/b&gt; but note it's not part of the actual part number.</description>
+<gates>
+<gate name="A" symbol="C-POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="CL1GB/4" package="4MM_SMD">
+<connects>
+<connect gate="A" pin="NEG" pad="N"/>
+<connect gate="A" pin="POS" pad="P"/>
+</connects>
+<technologies>
+<technology name="0G220">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="0J220">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="1C100">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="1E4R7">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="1V4R7">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+</technologies>
+</device>
+<device name="CL2GB/3" package="3MM_SMD">
+<connects>
+<connect gate="A" pin="NEG" pad="N"/>
+<connect gate="A" pin="POS" pad="P"/>
+</connects>
+<technologies>
+<technology name="1V2R2">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="1V3R3">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+</technologies>
+</device>
+<device name="CL1GB/5" package="5MM_SMD">
+<connects>
+<connect gate="A" pin="NEG" pad="N"/>
+<connect gate="A" pin="POS" pad="P"/>
+</connects>
+<technologies>
+<technology name="0G330">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="0G470">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="0J330">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="0J470">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="1A220">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="1A330">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="1C220">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="1E100">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="1H4R7">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="1V100">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+</technologies>
+</device>
+<device name="CL1GB/6.3" package="6_3MM_SMD">
+<connects>
+<connect gate="A" pin="NEG" pad="N"/>
+<connect gate="A" pin="POS" pad="P"/>
+</connects>
+<technologies>
+<technology name="1A470">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="1C330">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="1C470">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="1E220">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="1E330">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="1H100">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="1V220">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+</technologies>
+</device>
+<device name="CL6GB/8" package="8MM_SMD">
+<connects>
+<connect gate="A" pin="NEG" pad="N"/>
+<connect gate="A" pin="POS" pad="P"/>
+</connects>
+<technologies>
+<technology name="0G221">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="0J221">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="1E470">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="1H220">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+<technology name="1V330">
+<attribute name="HEIGHT" value="5.4mm"/>
+</technology>
+</technologies>
+</device>
+<device name="NL1GS/8" package="8MM_SMD">
+<connects>
+<connect gate="A" pin="NEG" pad="N"/>
+<connect gate="A" pin="POS" pad="P"/>
+</connects>
+<technologies>
+<technology name="0G102">
+<attribute name="HEIGHT" value="10mm"/>
+</technology>
+<technology name="0G471">
+<attribute name="HEIGHT" value="10mm"/>
+</technology>
+<technology name="0G681">
+<attribute name="HEIGHT" value="10mm"/>
+</technology>
+<technology name="0J102">
+<attribute name="HEIGHT" value="10mm"/>
+</technology>
+<technology name="0J471">
+<attribute name="HEIGHT" value="10mm"/>
+</technology>
+<technology name="0J681">
+<attribute name="HEIGHT" value="10mm"/>
+</technology>
+<technology name="1A331">
+<attribute name="HEIGHT" value="10mm"/>
+</technology>
+<technology name="1A471">
+<attribute name="HEIGHT" value="10mm"/>
+</technology>
+<technology name="1C331">
+<attribute name="HEIGHT" value="10mm"/>
+</technology>
+<technology name="1C471">
+<attribute name="HEIGHT" value="10mm"/>
+</technology>
+<technology name="1E151">
+<attribute name="HEIGHT" value="10mm"/>
+</technology>
+<technology name="1E221">
+<attribute name="HEIGHT" value="10mm"/>
+</technology>
+<technology name="1E331">
+<attribute name="HEIGHT" value="10mm"/>
+</technology>
+<technology name="1V151">
+<attribute name="HEIGHT" value="10mm"/>
+</technology>
+<technology name="1V221">
+<attribute name="HEIGHT" value="10mm"/>
+</technology>
+</technologies>
+</device>
+<device name="NL1GS/10" package="10MM_SMD">
+<connects>
+<connect gate="A" pin="NEG" pad="N"/>
+<connect gate="A" pin="POS" pad="P"/>
+</connects>
+<technologies>
+<technology name="0G152">
+<attribute name="HEIGHT" value="10mm"/>
+</technology>
+<technology name="0J152">
+<attribute name="HEIGHT" value="10mm"/>
+</technology>
+<technology name="1A102">
+<attribute name="HEIGHT" value="10mm"/>
+</technology>
+<technology name="1A681">
+<attribute name="HEIGHT" value="10mm"/>
+</technology>
+<technology name="1C681">
+<attribute name="HEIGHT" value="10mm"/>
+</technology>
+<technology name="1E4R7">
+<attribute name="HEIGHT" value="10mm"/>
+</technology>
+</technologies>
+</device>
+<device name="CL1GS/6.3" package="6_3MM_SMD">
+<connects>
+<connect gate="A" pin="NEG" pad="N"/>
+<connect gate="A" pin="POS" pad="P"/>
+</connects>
+<technologies>
+<technology name="0G331">
+<attribute name="HEIGHT" value="7.7mm"/>
+</technology>
+<technology name="0J331">
+<attribute name="HEIGHT" value="7.7mm"/>
+</technology>
+<technology name="1A221">
+<attribute name="HEIGHT" value="7.7mm"/>
+</technology>
+<technology name="1C151">
+<attribute name="HEIGHT" value="7.7mm"/>
+</technology>
+<technology name="1C221">
+<attribute name="HEIGHT" value="7.7mm"/>
+</technology>
+<technology name="1E101">
+<attribute name="HEIGHT" value="7.7mm"/>
+</technology>
+<technology name="1H330">
+<attribute name="HEIGHT" value="7.7mm"/>
+</technology>
+<technology name="1H470">
+<attribute name="HEIGHT" value="7.7mm"/>
+</technology>
+<technology name="1V101">
+<attribute name="HEIGHT" value="7.7mm"/>
+</technology>
+<technology name="1V470">
+<attribute name="HEIGHT" value="5.8mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="PART_NUM" value="5000"/>
@@ -8585,6 +9037,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <part name="U$27" library="C3-General" deviceset="VCC" device=""/>
 <part name="R11" library="C3-Panasonic" deviceset="ERJ-?*" device="3GEY" technology="J103" value="10K 5%"/>
 <part name="D2" library="C3-RCL" deviceset="BAT54" device=""/>
+<part name="C11" library="C3-Nichicon" deviceset="UWT*M?" device="NL1GS/8" technology="0G102" value="100uF"/>
+<part name="U$29" library="C3-General" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8599,10 +9053,10 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="360.68" y1="119.38" x2="299.72" y2="119.38" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="299.72" y1="119.38" x2="299.72" y2="152.4" width="0.1524" layer="97" style="shortdash"/>
 <text x="318.262" y="153.67" size="2.1844" layer="97" font="vector" ratio="16">MOTOR CONTROL</text>
-<wire x1="342.9" y1="205.74" x2="292.1" y2="205.74" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="292.1" y1="205.74" x2="292.1" y2="243.84" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="292.1" y1="243.84" x2="342.9" y2="243.84" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="342.9" y1="243.84" x2="342.9" y2="205.74" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="345.44" y1="205.74" x2="287.02" y2="205.74" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="287.02" y1="205.74" x2="287.02" y2="243.84" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="287.02" y1="243.84" x2="345.44" y2="243.84" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="345.44" y1="243.84" x2="345.44" y2="205.74" width="0.1524" layer="97" style="shortdash"/>
 <text x="293.878" y="245.11" size="2.1844" layer="97" font="vector" ratio="16">POWER INPUT &amp; PROTECTION</text>
 <wire x1="137.16" y1="254" x2="137.16" y2="180.34" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="137.16" y1="180.34" x2="60.96" y2="180.34" width="0.1524" layer="97" style="shortdash"/>
@@ -8646,7 +9100,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <instance part="U1" gate="A" x="111.76" y="78.74"/>
 <instance part="5V" gate="-1" x="353.06" y="231.14"/>
 <instance part="5V" gate="-2" x="353.06" y="228.6"/>
-<instance part="F1" gate="A" x="314.96" y="231.14"/>
+<instance part="F1" gate="A" x="322.58" y="231.14"/>
 <instance part="LC1" gate="1" x="83.82" y="238.76" rot="R180"/>
 <instance part="LC1" gate="2" x="88.9" y="137.16" rot="R180"/>
 <instance part="LC1" gate="3" x="88.9" y="134.62" rot="R180"/>
@@ -8678,12 +9132,12 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <instance part="R2" gate="A" x="195.58" y="162.56" rot="R90"/>
 <instance part="R3" gate="A" x="187.96" y="162.56" rot="R90"/>
 <instance part="U$9" gate="G$1" x="195.58" y="177.8"/>
-<instance part="D1" gate="A" x="302.26" y="218.44" rot="R90"/>
-<instance part="U$11" gate="1" x="327.66" y="213.36"/>
+<instance part="D1" gate="A" x="309.88" y="218.44" rot="R90"/>
+<instance part="U$11" gate="1" x="335.28" y="213.36"/>
 <instance part="U$12" gate="A" x="114.3" y="241.3"/>
 <instance part="U$13" gate="G$1" x="127" y="93.98"/>
 <instance part="VCC" gate="G$1" x="289.56" y="101.6"/>
-<instance part="U$10" gate="A" x="327.66" y="236.22"/>
+<instance part="U$10" gate="A" x="335.28" y="236.22"/>
 <instance part="Y1" gate="A" x="83.82" y="73.66"/>
 <instance part="C7" gate="A" x="76.2" y="60.96" rot="R90"/>
 <instance part="C8" gate="A" x="91.44" y="60.96" rot="R90"/>
@@ -8731,6 +9185,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <instance part="U$27" gate="G$1" x="147.32" y="68.58"/>
 <instance part="R11" gate="A" x="147.32" y="55.88" rot="R90"/>
 <instance part="D2" gate="G$1" x="68.58" y="81.28" rot="R90"/>
+<instance part="C11" gate="A" x="297.18" y="220.98" rot="R90"/>
+<instance part="U$29" gate="1" x="297.18" y="213.36"/>
 </instances>
 <busses>
 </busses>
@@ -8826,14 +9282,14 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </segment>
 <segment>
 <pinref part="U$11" gate="1" pin="GND"/>
-<wire x1="327.66" y1="213.36" x2="327.66" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="215.9" x2="327.66" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="213.36" x2="335.28" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="215.9" x2="335.28" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="D1" gate="A" pin="A"/>
-<wire x1="302.26" y1="218.44" x2="302.26" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="215.9" x2="327.66" y2="215.9" width="0.1524" layer="91"/>
-<junction x="327.66" y="215.9"/>
+<wire x1="309.88" y1="218.44" x2="309.88" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="215.9" x2="335.28" y2="215.9" width="0.1524" layer="91"/>
+<junction x="335.28" y="215.9"/>
 <pinref part="5V" gate="-2" pin="S"/>
-<wire x1="327.66" y1="228.6" x2="350.52" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="228.6" x2="350.52" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C3" gate="A" pin="2"/>
@@ -8930,6 +9386,11 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <pinref part="C2" gate="A" pin="2"/>
 <wire x1="261.62" y1="223.52" x2="261.62" y2="218.44" width="0.1524" layer="91"/>
 <junction x="261.62" y="218.44"/>
+</segment>
+<segment>
+<pinref part="C11" gate="A" pin="NEG"/>
+<pinref part="U$29" gate="1" pin="GND"/>
+<wire x1="297.18" y1="218.44" x2="297.18" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
@@ -9054,24 +9515,25 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </net>
 <net name="VIN" class="0">
 <segment>
-<wire x1="327.66" y1="231.14" x2="327.66" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="231.14" x2="335.28" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="U$10" gate="A" pin="VIN"/>
 <pinref part="5V" gate="-1" pin="S"/>
-<wire x1="350.52" y1="231.14" x2="327.66" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="231.14" x2="335.28" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="F1" gate="A" pin="2"/>
-<wire x1="320.04" y1="231.14" x2="327.66" y2="231.14" width="0.1524" layer="91"/>
-<junction x="327.66" y="231.14"/>
+<wire x1="327.66" y1="231.14" x2="335.28" y2="231.14" width="0.1524" layer="91"/>
+<junction x="335.28" y="231.14"/>
 </segment>
 </net>
 <net name="5V" class="0">
 <segment>
 <pinref part="D1" gate="A" pin="C"/>
-<wire x1="302.26" y1="231.14" x2="302.26" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="231.14" x2="309.88" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="162.56" x2="281.94" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="162.56" x2="281.94" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="195.58" x2="281.94" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="231.14" x2="302.26" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="231.14" x2="297.18" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="A" pin="D"/>
+<wire x1="297.18" y1="231.14" x2="309.88" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="147.32" x2="345.44" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="195.58" x2="281.94" y2="195.58" width="0.1524" layer="91"/>
 <junction x="281.94" y="195.58"/>
@@ -9079,10 +9541,13 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="281.94" y1="157.48" x2="281.94" y2="162.56" width="0.1524" layer="91"/>
 <junction x="281.94" y="162.56"/>
 <pinref part="F1" gate="A" pin="1"/>
-<wire x1="309.88" y1="231.14" x2="302.26" y2="231.14" width="0.1524" layer="91"/>
-<junction x="302.26" y="231.14"/>
+<wire x1="317.5" y1="231.14" x2="309.88" y2="231.14" width="0.1524" layer="91"/>
+<junction x="309.88" y="231.14"/>
 <pinref part="PI" gate="A" pin="5V@2"/>
 <pinref part="PI" gate="A" pin="5V@4"/>
+<pinref part="C11" gate="A" pin="POS"/>
+<wire x1="297.18" y1="226.06" x2="297.18" y2="231.14" width="0.1524" layer="91"/>
+<junction x="297.18" y="231.14"/>
 </segment>
 </net>
 <net name="BSENSE" class="0">

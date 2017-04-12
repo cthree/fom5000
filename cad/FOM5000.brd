@@ -8387,6 +8387,38 @@
 </package>
 </packages>
 </library>
+<library name="C3-Nichicon">
+<packages>
+<package name="8MM_SMD">
+<description>8mmx5.5mm and 8mmx6.2mm SMD Aluminum Electrolytic Capacitor&lt;p&gt;
+&lt;a href="http://nichicon-us.com/english/products/pdfs/e-ch_ref.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="4.125" y1="-4.125" x2="4.125" y2="4.125" width="0.127" layer="51"/>
+<wire x1="4.125" y1="4.125" x2="-2.875" y2="4.125" width="0.127" layer="51"/>
+<wire x1="-2.875" y1="4.125" x2="-4.125" y2="2.875" width="0.127" layer="51"/>
+<wire x1="-4.125" y1="2.875" x2="-4.125" y2="-2.875" width="0.127" layer="51"/>
+<wire x1="-4.125" y1="-2.875" x2="-2.875" y2="-4.125" width="0.127" layer="51"/>
+<wire x1="-2.875" y1="-4.125" x2="4.125" y2="-4.125" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="2.875" y="-2.75" curve="90"/>
+<vertex x="2.875" y="2.75"/>
+</polygon>
+<circle x="0" y="0" radius="4" width="0.127" layer="51"/>
+<smd name="P" x="-3.05" y="0" dx="2.5" dy="4" layer="1" rot="R90"/>
+<smd name="N" x="3.05" y="0" dx="2.5" dy="4" layer="1" rot="R90"/>
+<wire x1="-4.125" y1="2.875" x2="-2.875" y2="4.125" width="0.127" layer="21"/>
+<wire x1="-2.875" y1="4.125" x2="4.125" y2="4.125" width="0.127" layer="21"/>
+<wire x1="4.125" y1="4.125" x2="4.125" y2="1.625" width="0.127" layer="21"/>
+<wire x1="-4.125" y1="-2.875" x2="-2.875" y2="-4.125" width="0.127" layer="21"/>
+<wire x1="-2.875" y1="-4.125" x2="4.125" y2="-4.125" width="0.127" layer="21"/>
+<wire x1="4.125" y1="-4.125" x2="4.125" y2="-1.625" width="0.127" layer="21"/>
+<text x="-5.375" y="2.975" size="1.27" layer="21" ratio="15" rot="R270">+</text>
+<text x="-0.025" y="5.025" size="1.778" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0.075" y="-5.025" size="1.27" layer="27" font="vector" align="top-center">&gt;VALUE</text>
+<wire x1="-4.125" y1="-2.875" x2="-4.125" y2="-1.625" width="0.127" layer="21"/>
+<wire x1="-4.125" y1="2.875" x2="-4.125" y2="1.625" width="0.127" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 <attribute name="COPYRIGHT" value="Copyright 2017"/>
@@ -8804,6 +8836,11 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="27.94" y="53.594" size="1.27" layer="27" font="vector" rot="R90" align="top-center"/>
 </element>
 <element name="D2" library="C3-RCL" package="SOT23-3" value="BAT54" x="9.398" y="45.72" rot="R90"/>
+<element name="C11" library="C3-Nichicon" package="8MM_SMD" value="100uF" x="70.104" y="29.718" smashed="yes">
+<attribute name="HEIGHT" value="10mm" x="70.104" y="29.718" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="72.111" y="34.235" size="1.778" layer="25" font="vector" ratio="10" align="bottom-center"/>
+<attribute name="VALUE" x="70.179" y="24.693" size="1.27" layer="27" font="vector" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="VIN">
@@ -8846,9 +8883,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="54.61" y1="64.77" x2="57.15" y2="64.77" width="0.254" layer="1"/>
 <wire x1="57.15" y1="64.77" x2="58.42" y2="63.5" width="0.254" layer="1"/>
 <wire x1="58.42" y1="63.5" x2="58.42" y2="53.34" width="0.254" layer="1"/>
-<wire x1="68.109" y1="37.846" x2="68.109" y2="36.031" width="0.254" layer="1"/>
-<wire x1="68.109" y1="36.031" x2="72.39" y2="30.48" width="0.254" layer="1"/>
-<wire x1="72.39" y1="30.48" x2="72.39" y2="12.7" width="0.254" layer="1"/>
 <wire x1="72.39" y1="12.7" x2="71.12" y2="11.43" width="0.254" layer="1"/>
 <wire x1="71.12" y1="11.43" x2="64.77" y2="11.43" width="0.254" layer="1"/>
 <wire x1="64.77" y1="11.43" x2="62.23" y2="8.89" width="0.254" layer="1"/>
@@ -8921,6 +8955,11 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R11" pad="2"/>
 <wire x1="24.898" y1="54.229" x2="24.988" y2="54.319" width="0.254" layer="1"/>
 <wire x1="24.988" y1="54.319" x2="26.67" y2="54.319" width="0.254" layer="1"/>
+<wire x1="68.109" y1="34.761" x2="69.85" y2="33.02" width="0.254" layer="1"/>
+<wire x1="69.85" y1="33.02" x2="69.85" y2="24.13" width="0.254" layer="1"/>
+<wire x1="69.85" y1="24.13" x2="72.39" y2="21.59" width="0.254" layer="1"/>
+<wire x1="72.39" y1="21.59" x2="72.39" y2="12.7" width="0.254" layer="1"/>
+<wire x1="68.109" y1="37.846" x2="68.109" y2="34.761" width="0.254" layer="1"/>
 <wire x1="16.51" y1="25.019" x2="16.256" y2="25.019" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V+">
@@ -9118,6 +9157,10 @@ Please make sure your boards conform to these design rules.</description>
 <via x="48.006" y="18.034" extent="1-16" drill="0.254" diameter="0.508"/>
 <wire x1="49.53" y1="17.654" x2="48.386" y2="17.654" width="0.254" layer="1"/>
 <wire x1="48.386" y1="17.654" x2="48.006" y2="18.034" width="0.254" layer="1"/>
+<contactref element="C11" pad="N"/>
+<wire x1="73.154" y1="29.718" x2="73.154" y2="29.716" width="0.254" layer="1"/>
+<wire x1="73.154" y1="29.716" x2="75.438" y2="27.432" width="0.254" layer="1"/>
+<via x="75.438" y="27.432" extent="1-16" drill="0.254" diameter="0.508"/>
 </signal>
 <signal name="VBAT_IN">
 <contactref element="R1" pad="2"/>
@@ -9160,9 +9203,13 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="61.468" y1="21.082" x2="66.802" y2="26.416" width="0.254" layer="1"/>
 <wire x1="57.912" y1="60.96" x2="56.642" y2="62.23" width="0.254" layer="1"/>
 <wire x1="56.642" y1="62.23" x2="54.61" y2="62.23" width="0.254" layer="1"/>
-<wire x1="66.802" y1="26.416" x2="66.802" y2="44.196" width="0.254" layer="1"/>
-<wire x1="66.802" y1="44.196" x2="57.912" y2="53.086" width="0.254" layer="1"/>
+<wire x1="57.912" y1="53.086" x2="66.802" y2="44.196" width="0.254" layer="1"/>
 <wire x1="57.912" y1="53.086" x2="57.912" y2="60.96" width="0.254" layer="1"/>
+<contactref element="C11" pad="P"/>
+<wire x1="66.802" y1="26.416" x2="66.802" y2="29.466" width="0.254" layer="1"/>
+<wire x1="67.054" y1="29.718" x2="66.802" y2="29.466" width="0.254" layer="1"/>
+<wire x1="66.802" y1="44.196" x2="66.802" y2="29.97" width="0.254" layer="1"/>
+<wire x1="66.802" y1="29.97" x2="67.054" y2="29.718" width="0.254" layer="1"/>
 </signal>
 <signal name="BSENSE">
 <contactref element="U3" pad="11"/>
@@ -9472,6 +9519,7 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="1,20,9ac800b60374990a"/>
 <approved hash="1,20,9e7e0c000d669f18"/>
 <approved hash="1,20,52f3e08de0e1529f"/>
+<approved hash="1,20,5ecc1cb21cfd5e83"/>
 <approved hash="2,20,103298d2a5622d82"/>
 <approved hash="2,20,103298d2a5622d82"/>
 <approved hash="2,20,103298d2a5622d82"/>
