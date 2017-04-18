@@ -9009,8 +9009,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <part name="R8" library="C3-Panasonic" deviceset="ERJ-?*" device="3GEY" technology="J104" value="100K 5%"/>
 <part name="U$2" library="C3-General" deviceset="+2V4" device=""/>
 <part name="FRAME1" library="C3-General" deviceset="FRAME_B_L" device="" value="FOM5000"/>
-<part name="LED1" library="C3-LED" deviceset="LED" device="5MM" value="RED Bulk 5mm"/>
-<part name="R9" library="C3-Panasonic" deviceset="ERJ-?*" device="3GEY" technology="J101" value="100R 5%"/>
+<part name="LED1" library="C3-LED" deviceset="LED" device="5MM" value="1.9Vf, 25mA"/>
+<part name="R9" library="C3-Panasonic" deviceset="ERJ-?*" device="3GEY" technology="J331" value="330R 5%"/>
 <part name="U$14" library="C3-General" deviceset="VCC" device=""/>
 <part name="U$18" library="C3-General" deviceset="GND" device=""/>
 <part name="U$19" library="C3-General" deviceset="VCC" device=""/>
